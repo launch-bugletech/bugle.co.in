@@ -1,0 +1,11 @@
+// Add this to your app/Providers/EventServiceProvider.php in the $listen array:
+
+protected $listen = [
+    // ... existing listeners ...
+    
+    'App\Events\ClockInOutNotification' => [
+        'App\Listeners\SendClockInOutPushNotification',
+    ],
+];
+
+// This will automatically send push notifications to all admins whenever a clock-in or clock-out event occurs.

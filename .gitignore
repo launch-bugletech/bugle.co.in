@@ -1,0 +1,27 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.*
+!.env.example
+!.env.*.example
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+# Runtime logs and customer uploads
+/error_log
+*.log
+/public/img/companyLogo/*
+!/public/img/companyLogo/default-logo.jpg
+/public/img/texExemptForm/
+/public/img/invoice/
+/public/img/draft/
+/public/img/defect/
